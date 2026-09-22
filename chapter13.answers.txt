@@ -1,0 +1,6 @@
+//Question 2
+/*According to the free call, I have no memory free, which could either mean it's because
+ I don't have any processes to run, or the memory is always used for background processes
+  and scales up for them.*/
+//Question 3
+/*
