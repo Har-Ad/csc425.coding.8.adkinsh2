@@ -24,4 +24,6 @@ int main(int argc ,char* argv[]){
         printf("%d\n",garbo[index]);
         index = (index + 1) % size;
      }
+
+     return(0);
 }
