@@ -1,6 +1,17 @@
 //Question 2
-/*According to the free call, I have no memory free, which could either mean it's because
- I don't have any processes to run, or the memory is always used for background processes
-  and scales up for them.*/
-//Question 3
-/*
+/*According to the free call, I have about 6 MB free in memory, which doesn't match up to the free and total amount on my 
+machine, so I assume it's a codespace virtual machine it is based on.*/
+//Question 4
+/*Using large amounts of memory greatly reduces the free memory I have to use. The free space doesn't seem to clear up immediately,
+most likely because the code runs infinitley and doesn't free up memory after it is done.*/
+//Question 6
+/*The main challenge was getting the allocation to work correctly without returning an error due to writing memory out of bounds.*/
+//Question 7
+/*For PID 500, a root process, it listed the dns server, as well as containers. 
+This was most likely a processes for handling connecting to a server on github or my network.
+PID 2461 showed a full list of addresses, with permissions, nodes, size of data, and references.
+It seems to contain details about every variable and structure saved to memory by this process.
+PID 1302 showed something similar, altough -X shows a lot more details about every address than -x.*/
+//Question 8
+/*The size in KB increases when I allocate more memory specifically for this program. It seems that the code will try to 
+utilize all the memory it is given, or even more likely the allocation method used prevents any other process from using it.*/
